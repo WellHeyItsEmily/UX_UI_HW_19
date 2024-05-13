@@ -17,7 +17,7 @@
             <ul class="menuitem">
                 <li>About</li>
                 <li>Portfolio</li>
-                <li class="contactbutton">Contact</li>
+                <button class="contactbutton" id="scrollToContact">Contact</button>
             </ul>
         </div>
     </nav>
@@ -36,17 +36,14 @@
     <section class="myuxskills">
         <div class="skills">
             <div alt="userresearch" class="bubbles ur"></div>
-            <h1>User <br> Research</h1>
             <p class="skillcopy">Uncovering valuable insights to inform user-centered design decisions.</p>
         </div>
         <div class="skills">
             <div alt="visualdesign" class="bubbles vd"></div>
-            <h1>Visual <br> Design</h1>
             <p class="skillcopy">Intuitive design to communicate brand identity and enhance user experience.</p>
         </div>
         <div class="skills">
             <div alt="applicationdevelopment" class="bubbles ad"></div>
-            <h1>Application <br> Development</h1>
             <p class="skillcopy">User-friendly solutions using various programming languages and frameworks.</p>
         </div>
     </section>
@@ -74,9 +71,34 @@
     </div>
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </body>
 
-<footer>
+<footer class="footer">
+
+    <section>
+        <h1 class="headinginverse">Let's Chat</h1>
+      <form id="contactForm" class="contactform">
+        <input type="text" id="name" class="input" placeholder="Your Name" required>
+        <input type="email" id="email" class="input" placeholder="Your Email" required>
+        <textarea id="message" class="input" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contactbutton">Submit</button>
+      </form>
+
+    </section>
+
+    <section>
+        <div class="footercontent">
+        <nav>
+            <ul class="menuitemfooter">
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="footercontent">
         <nav>
             <ul class="menuitemfooter">
@@ -86,6 +108,7 @@
             </ul>
         </nav>
     </div>
+</section>
 
 </footer>
 
