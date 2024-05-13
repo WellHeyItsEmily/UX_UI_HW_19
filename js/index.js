@@ -13,12 +13,12 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
   
     alert('Thank You! Your message was submitted, I will get back to you soon.');
-  });
+});
 
-  $(document).ready(function() {
+$(document).ready(function() {
     $("#scrollToContact").on("click", function() {
       $('html, body').animate({
         scrollTop: $("#contactForm").offset().top
-      }, 1000); // Adjust the duration as needed
+      }, 1000);
     });
-  });
+});
