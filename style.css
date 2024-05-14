@@ -49,7 +49,7 @@ nav {
 }
 
 .hero {
-    display:flex;
+    display:grid;
     color: #324554;
     font-weight: bold;
     font-size: 30px;
@@ -104,6 +104,13 @@ nav {
     justify-content:space-evenly;
     text-align: center;
     padding: 40px;
+}
+
+.introskills {
+    margin-left: 40px;
+    padding: 30px;
+    width: 900px;
+    color:#AECCCE;
 }
 
 .skills .bubbles {
@@ -200,6 +207,7 @@ nav {
     color:antiquewhite;
     margin-left: 55px;
     width: 800px;
+    font-size: medium;
 }
 
 .menuitemfooter {
